@@ -1,0 +1,4 @@
+default_version = '0.1'
+comment = 'PL V8 Modules loader'
+relocatable = true
+require = 'plv8'
