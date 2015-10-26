@@ -22,3 +22,11 @@ select plv8_startup();
 
 EOF
 ~~~
+
+Then, add :
+
+~~~
+plv8.start_proc = 'plv8_startup'
+~~~
+
+into `postgresql.conf` file, and restart the instance.
